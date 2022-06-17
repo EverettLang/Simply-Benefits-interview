@@ -8,4 +8,6 @@ const firstnameContext = createContext(null);
 
 const lastnameContext = createContext(null);
 
-export {emailContext, passwordContext, firstnameContext, lastnameContext};
+const returnmessageContext = createContext(null);
+
+export {emailContext, passwordContext, firstnameContext, lastnameContext, returnmessageContext};

@@ -1,0 +1,26 @@
+.error-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.error-container button {
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #f21818;
+    color: white;
+    height: 5vh;
+    width: 10rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-style: bold;
+}
+
+.error-container button:hover {
+    background-color: #d10404;
+}
